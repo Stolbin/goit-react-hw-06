@@ -2,17 +2,18 @@
   box-sizing: border-box;
   min-width: 200px;
   list-style-type: none;
-  border: black 1px solid;
+  border: black 2px solid;
   border-radius: 8px;
   padding: 10px 5px 15px 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .contactTitle {
-  padding: 0;
+  text-transform: uppercase;
 }
 .contactBtn {
   background-color: orangered;
@@ -20,15 +21,15 @@
   border-radius: 8px;
   color: #fff;
   width: 90px;
-  height: 40px;
+  height: 35px;
   padding: 0;
   transition: 300ms linear, color 300ms linear;
 }
 
-.contactBtnText {
-  margin: auto;
+/* .contactBtnText {
+  margin: 0;
   padding: 0;
-}
+} */
 .contactBtn:hover {
   color: black;
   border: 1px solid orangered;
