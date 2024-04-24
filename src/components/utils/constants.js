@@ -5,4 +5,4 @@ export const FormInitialValues = {
 
 export const minLengthDataValidation = 3;
 
-export const maxLengthDataValidation = 50;
+export const maxLengthDataValidation = 12;

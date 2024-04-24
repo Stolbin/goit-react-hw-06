@@ -1,5 +1,12 @@
+.listTitle {
+  text-align: center;
+}
 .listItems {
+  padding: 0;
+  margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 25;
+  gap: 15px;
 }
