@@ -1,6 +1,7 @@
 .contactItem {
   box-sizing: border-box;
-  min-width: 200px;
+  background-color: #ecffff;
+  width: 240px;
   list-style-type: none;
   border: black 2px solid;
   border-radius: 8px;
@@ -10,6 +11,13 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: background-color 550ms linear;
+  &:hover {
+    background-color: rgba(192, 192, 192, 0.9);
+    box-sizing: border-box;
+    border: black 2px dashed;
+    transition: background-color 550ms linear;
+  }
 }
 
 .contactTitle {
@@ -26,13 +34,18 @@
   transition: 300ms linear, color 300ms linear;
 }
 
-/* .contactBtnText {
-  margin: 0;
-  padding: 0;
-} */
 .contactBtn:hover {
   color: black;
   border: 1px solid orangered;
-  background-color: transparent;
+  background-color: #e0ffff;
+
   transition: 300ms linear, color 300ms linear;
+}
+.contactText {
+  width: 100%;
+  text-align: center;
+}
+.spanontactText {
+  font-weight: 600;
+  margin-right: 5%;
 }

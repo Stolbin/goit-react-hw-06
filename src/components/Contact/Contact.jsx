@@ -12,7 +12,10 @@ const Contact = ({ name, number, id }) => {
   return (
     <li className={css.contactItem}>
       <h3 className={css.contactTitle}>{name}</h3>
-      <p className={css.contactText}>tel: {number}</p>
+      <p className={css.contactText}>
+        <span className={css.spanontactText}>☎️</span>
+        {number}
+      </p>
       <button
         className={css.contactBtn}
         type="button"
